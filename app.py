@@ -21,12 +21,11 @@ st.markdown(
             padding: 1.5rem 1.75rem;
             border-radius: 18px;
             background: linear-gradient(135deg, #0b3954, #166699);
-            color: #f8fbff;
+            color: #fefefe;
             margin-bottom: 1.25rem;
             box-shadow: 0 15px 40px rgba(12, 64, 120, 0.25);
         }
-        .hero h1 { color: #fefefe; }
-        .hero p { color: #fefefe; }
+        .hero *, .hero h1, .hero p { color: #fefefe !important; }
         .badge {
             display: inline-block;
             padding: 0.25rem 0.65rem;
@@ -43,7 +42,7 @@ st.markdown(
             box-shadow: 0 12px 40px rgba(11, 57, 84, 0.08);
         }
         .stSlider label, .stMarkdown p, .stMarkdown li, .stText {
-            color: #1a2733;
+            color: #0f1b28;
         }
         .stSlider > div[data-baseweb="slider"] {
             padding-top: 0.35rem;
