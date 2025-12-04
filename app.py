@@ -131,5 +131,6 @@ with info_col:
             <li>Versicolor tends to sit in the middle; Virginica often has longer petals.</li>
             <li>Model loads saved KNN artifacts (<code>knn_model.sav</code> / <code>modelKNN1.pkl</code>) or trains a fallback automatically.</li>
         </ul>
-        """
+        """,
+        unsafe_allow_html=True,
     )
