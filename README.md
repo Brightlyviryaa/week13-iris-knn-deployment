@@ -21,12 +21,14 @@ Guided lab for IS388 Data Analysis (Week 13) covering model evaluation and deplo
 ## Flowchart
 ```mermaid
 flowchart TD
-    A[Load Iris dataset] --> B[Inspect columns & basic stats]
-    B --> C[Split features/labels into train & test (60/40)]
-    C --> D[Train KNN classifier (k=5, default params)]
-    D --> E[Evaluate accuracy on held-out test set]
-    E --> F[Persist model to .pkl and .sav]
-    F --> G[Deploy with Streamlit UI to collect inputs & run prediction]
+    A[Load Iris dataset]
+    B[Inspect columns and basic stats]
+    C[Split features and labels; train/test 60/40]
+    D[Train KNN classifier (k=5, default params)]
+    E[Evaluate accuracy on held-out test set]
+    F[Persist model to .pkl and .sav]
+    G[Deploy with Streamlit UI to collect inputs and run prediction]
+    A --> B --> C --> D --> E --> F --> G
 ```
 
 ## Reproduce the notebook
