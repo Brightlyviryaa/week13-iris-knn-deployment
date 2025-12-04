@@ -25,6 +25,8 @@ st.markdown(
             margin-bottom: 1.25rem;
             box-shadow: 0 15px 40px rgba(12, 64, 120, 0.25);
         }
+        .hero h1 { color: #fefefe; }
+        .hero p { color: #eaf3ff; }
         .badge {
             display: inline-block;
             padding: 0.25rem 0.65rem;
